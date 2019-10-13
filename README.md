@@ -1,3 +1,7 @@
+# Dependency
+
+- jQuery
+
 # Example
 
 ```javascript

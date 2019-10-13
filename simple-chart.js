@@ -1,9 +1,12 @@
 simple_chart = function(div, data){
-	height = 300
+	
+	// deklarasi parameter
+	height = 100
+
 	// $(div).html('tes')
 	$(div).css({
 		width: '100%',
-		height: '300px',
+		height: height,
 		display: 'block'
 	})
 

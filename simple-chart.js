@@ -6,6 +6,17 @@ simple_chart = function(div, data){
 		height: '300px',
 		display: 'block'
 	})
+
+	apakah_total_data_nol = 0
+	for (n in data.data){
+		apakah_total_data_nol += Number(data.data[n])
+	}
+	if (apakah_total_data_nol == 0){
+		$(div).css({
+			display: 'none'
+		})
+	}
+
 	banyak_data = data.data.length // 6
 	lebar_elemen = $(div).width() / banyak_data // 48 (px)
 	// jumlah_data = 0

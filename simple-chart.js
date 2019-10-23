@@ -1,3 +1,5 @@
+// source: github.com/mzaini30/simple-chart
+
 simple_chart = function(div, data){
 	
 	// deklarasi parameter
